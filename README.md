@@ -5,4 +5,7 @@ EPITA' Swirl: 1st subject (HTML, CSS)
 Developp a simple resume website using new CSS:
 - background-clip
 - box-decoration-break
-- calc() 
+- calc()
+- column-count & column-\* other elements
+- filter
+- font-smoothing 
