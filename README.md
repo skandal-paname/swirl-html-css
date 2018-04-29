@@ -8,4 +8,9 @@ Developp a simple resume website using new CSS:
 - calc()
 - column-count & column-\* other elements
 - filter
-- font-smoothing 
+- font-smoothing
+- grid
+- position sticky
+- var
+- animatable
+- word-break
