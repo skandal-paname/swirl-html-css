@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+html, body{
+    margin: 0;
+    background: #1D1D1D;
+    color: white;
+    font-family: 'Open Sans';
+}
+
+#body{
+    display: flex;
+    margin-left: 400px;;
+}
+
+
+#header{
+    box-sizing: content-box;
+    text-align: center;
+    position: fixed;
+    margin-left: 100px;
+    padding-right: 100px;
+    height: 100%;
+    padding-top: calc(50% - 25% - 140px);
+}
+
+.header-body{
+}
+
+#header h2, #header h3{
+    color: white;
+    -webkit-font-smooth: antialiased;
+    margin: 2px 0;
+}
+
+#header .img-box{
+    box-sizing: content-box;
+    text-align: center;
+    
+}
+
+#header .img-box img{
+    border-radius: 100%;
+    border: 8px solid white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+#link{
+    width: 150px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+#link li{
+    margin: 5px;
+}
+
+#link li img{
+    width: 40px;
+}
+
+.top{
+    margin-top: 60px;
+}
+
+#body .body-content{
+    width: 90%;
+    margin: auto;
+}
+
+p{
+    font-size: 20px;
+}
+
+.right{
+    text-align: right;
+    font-size: 40px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#tech li{
+    margin: 12px;
+    width: 75px;
+    height: 75px;
+}
+
+
+#tech img{
+    height: 100%;
+   width: 100%;
+}
+
+#grid .elements{
+  flex: 1 1 auto;
+}
+
+#grid iframe{
+    height: 260px;
+}
+
+footer{
+    text-align: center;
+    color: #484848;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
